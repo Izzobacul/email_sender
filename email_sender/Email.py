@@ -1,5 +1,5 @@
 import smtplib
-from email_sender.Mail import Mail
+import Mail
 
 class Email:
     def __init__(self, server, username, password):
